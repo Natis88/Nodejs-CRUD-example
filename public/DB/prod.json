@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "milk",
+    "category": "Diary",
+    "description": "Tnuva Milk 3%",
+    "picture": "/public/images/milk.jpg",
+    "price": "12$"
+  },
+  {
+    "id": "2",
+    "name": "Shampoo",
+    "category": "Toiletries",
+    "description": "Head&sShoulders",
+    "picture": "/public/images/shampoo.jpg",
+    "price": "7$"
+  },
+  {
+    "id": "3",
+    "name": "Paprika",
+    "category": "Spices",
+    "description": "Paprika in oil",
+    "picture": "/public/images/paprika.jpg",
+    "price": "5$"
+  },
+  {
+    "id": "4",
+    "name": "Spelt bread",
+    "category": "Breads",
+    "description": "Low calories bread",
+    "picture": "/public/images/bread.jpg",
+    "price": "3$"
+  },
+  {
+    "id": "5",
+    "name": "Cola zero",
+    "description": "Coca Cola zero 1.5L",
+    "category": "Drinks",
+    "price": "4$",
+    "picture": "/public/images/zero.jpg"
+  },
+  {
+    "id": "6",
+    "name": "sugar",
+    "description": "סוכר לבן",
+    "category": "sweets",
+    "price": "5",
+    "picture": "/public/images/sugar.jpg"
+  }
+]

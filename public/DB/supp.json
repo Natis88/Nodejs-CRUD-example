@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Angel",
+    "email": "angel@service.com",
+    "phone": "046855475",
+    "city": "Afula"
+  },
+  {
+    "id": "2",
+    "name": "Elviv",
+    "email": "elviv@service.com",
+    "phone": "025687456",
+    "city": "Jerusalem"
+  },
+  {
+    "id": "3",
+    "name": "Maimon",
+    "email": "maimon@service.com",
+    "phone": "045785364",
+    "city": "Haifa"
+  },
+  {
+    "id": "4",
+    "name": "Tnuva",
+    "email": "Tnuva@service.com",
+    "phone": "03225876",
+    "city": "Tel Aviv"
+  },
+  {
+    "id": "5",
+    "name": "sugat",
+    "email": "sugat@example.com",
+    "phone": "035554443",
+    "city": "holon"
+  }
+]

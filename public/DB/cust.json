@@ -1,0 +1,30 @@
+[
+  {
+    "id": "2",
+    "name": "Shuki zikri",
+    "email": "zikri@gmail.com",
+    "phone": "095453548",
+    "city": "Ranana"
+  },
+  {
+    "id": "3",
+    "name": "Otenti",
+    "email": "otenti@gmail.com",
+    "phone": "085456852",
+    "city": "Lod"
+  },
+  {
+    "id": "4",
+    "name": "Shibolet",
+    "email": "shibolet@gmail.com",
+    "phone": "035654458",
+    "city": "Rishon-Lezion"
+  },
+  {
+    "id": "4",
+    "name": "shalom shalom",
+    "email": "shalom@example.com",
+    "phone": "0954654652",
+    "city": "Lod"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "date": "1/1/2020",
+    "to": "Hospital",
+    "payment": "Credit",
+    "quantity": "5",
+    "description": "milk",
+    "total": "60$"
+  },
+  {
+    "id": "2",
+    "date": "1/2/2020",
+    "to": "barber shop",
+    "payment": "Cash",
+    "quantity": "10",
+    "description": "shampoo",
+    "total": "70$"
+  },
+  {
+    "id": "3",
+    "date": "1/3/2020",
+    "to": "spices shop",
+    "payment": "check",
+    "quantity": "5",
+    "description": "paprika",
+    "total": "25$"
+  },
+  {
+    "id": "4",
+    "date": "1/4/2020",
+    "to": "bakery ",
+    "payment": "bank transfer",
+    "quantity": "30",
+    "description": "Spelt bread",
+    "total": "90$"
+  },
+  {
+    "id": "5",
+    "date": "11/08/2021",
+    "to": "sugat",
+    "payment": "250",
+    "quantity": "10",
+    "description": "for order",
+    "total": "2500"
+  }
+]

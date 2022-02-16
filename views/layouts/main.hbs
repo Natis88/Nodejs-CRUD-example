@@ -1,0 +1,157 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+      integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+      integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l"
+      crossorigin="anonymous"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script
+      src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <script
+      src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css" />
+  </head>
+
+  <body>
+    <svg>
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur
+            in="SourceGraphic"
+            stdDeviation="10"
+            result="name"
+          ></feGaussianBlur>
+          <feColorMatrix
+            in="name"
+            mode="matrix"
+            values="1 0 0 0 0
+                                                       0 1 0 0 0
+                                                       0 0 1 0 0
+                                                       0 0 0 15 -10"
+            result="b"
+          ></feColorMatrix>
+          <feBlend in="SourceGraphic" in2="b"></feBlend>
+        </filter>
+      </defs>
+    </svg>
+
+    <div class="wrapper">
+      <div id="container">
+        <p class="text">DROP</p>
+        <div class="drop"></div>
+      </div>
+    </div>
+    <div class="flex-container">
+
+      <div class="glowing-box">
+
+        <div class="box-face right-side"></div>
+        <div class="box-face front"></div>
+        <div class="box-face left-side"></div>
+        <div class="box-face bottom"></div>
+        <div class="box-face back"></div>
+        <div class="top-flap top-right"></div>
+        <div class="top-flap top-left"></div>
+        <div class="top-flap top-back"></div>
+        <div class="top-flap top-front"></div>
+
+      </div>
+    </div>
+
+    <header class="main-nav">
+
+      <ul>
+        <li>
+          <a href="/"><i class="fas fa-home fa-lg"></i></a>
+          <span>Dashboard</span>
+        </li>
+        <li>
+          <a href="/products"> <i class="fal fa-list-ol"></i></a>
+          <span>Products</span>
+        </li>
+        <li>
+          <a href="/suppliers"><i class="fal fa-truck"></i></a>
+          <span>Suppliers</span>
+        </li>
+
+        <li>
+          <a href="/customers"><i class="fa fa-users"></i></a>
+          <span>Customers</span>
+        </li>
+        <li>
+          <a href="/invoices"><i class="fas fa-file-invoice-dollar"></i></a>
+          <span>Invoices</span>
+        </li>
+        <li>
+          <a href="/orders"><i class="fas fa-ticket-alt"></i></a>
+          <span>Orders</span>
+        </li>
+
+      </ul>
+    </header>
+
+    <div class="content">
+
+      {{{body}}}
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+
+  <div id="page-container">
+    <div id="content-wrap">
+      <!-- all other page content -->
+    </div>
+
+    <footer class="bg-dark text-center text-white">
+      <div class="text-center p-3" style="background-color:#3f3e3e;">
+        © 2021 Copyright:
+        <a class="text-white" href="/">My First Nodejs App</a>
+      </div>
+    </footer>
+  </div>
+
+</html>
